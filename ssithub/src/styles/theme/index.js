@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material/styles";
+import { createTheme} from "@mui/material/styles";
 
 export const Colors={
     primary:"#5f2c3e",
@@ -39,9 +39,28 @@ const theme = createTheme({
             defaultProps:{
                 disableRipple:true,
                 disableElevation:true
-            }
-        }
-    }
+            },
+        },
+        MuiDrawer:{
+            styleOverrides:{
+                paper:{
+                    width:250,
+                    background:Colors.primary,
+                    color:Colors.secondary,
+                    borderRadius:'0px 100px 0px 0px',
+                    borderRight: `1px solid ${Colors.primary}`,
+
+                },
+            },
+        },
+        MuiDivider:{
+            styleOverrides: {
+                root: {
+                  borderColor: 'var(--divider-color)',
+                },
+              },
+        },
+    },
 
 });
 

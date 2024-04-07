@@ -8,7 +8,7 @@ export default function AppbarDesktop ({matches}){
     return(
         <AppbarContainer>
             <AppbarHeader>
-                RandRenu
+                SSITHUB
             </AppbarHeader>
             <MyList type="row">
                 <ListItemText primary="Home" />

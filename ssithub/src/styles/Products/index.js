@@ -23,8 +23,8 @@ export const Product = styled(Box)(({ theme }) => ({
 export const ProductImage=styled('img')(({src,theme})=>({
     src: `url(${src})`,
     width:'100%',
-    borderRadius: '50%',
-    background: Colors.border,
+    // borderRadius: '50%',
+    // background: Colors.border,
     padding:'10px',
     [theme.breakpoints.down("md")]:{
         width:'80%',

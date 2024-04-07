@@ -6,6 +6,8 @@ import Banner from './components/banner';
 import Promotions from './components/promotions';
 import Products from './components/products';
 import { Box } from '@mui/system';
+import AppDrawer from './components/drawer';
+import { UIProvider } from './context/ui';
 
 function App() {
   return (
@@ -15,14 +17,18 @@ function App() {
       sx={{
         background:'#fff'
       }}
-      >    
+      >   
+      <UIProvider>
       <Appbar/>
       <Banner/>
       <Promotions/>
       <Box display="flex" justifyContent={"center"} sx={{p:4}}>
-        <Typography variant='h4'>Student Resources & Administration</Typography>
+        <Typography variant='h4'>Administration</Typography>
       </Box>
       <Products/>
+      <AppDrawer />
+      </UIProvider> 
+      
       </Container>
 
       </ThemeProvider>

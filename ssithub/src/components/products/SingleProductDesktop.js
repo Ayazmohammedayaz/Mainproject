@@ -1,12 +1,11 @@
-import { Product, ProductActionsWrapper,ProductFavButton,
-    ProductActionButton,ProductAddToCart
+import { Product, ProductActionsWrapper,ProductAddToCart
 } from "../../styles/Products";
 import{ ProductImage} from "../../styles/Products"
 import ProductMeta from "./productMeta";
 import { Stack } from "@mui/material";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
-import FitScreenIcon from "@mui/icons-material/FitScreen"
+// import FavoriteIcon from "@mui/icons-material/Favorite";
+// import ShareIcon from "@mui/icons-material/Share";
+// import FitScreenIcon from "@mui/icons-material/FitScreen"
 import { useState } from "react";
 
 
