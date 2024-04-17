@@ -6,6 +6,7 @@ import { slideInBottom, slideInRight } from "../../animation";
 
 
 
+
 export const Product = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",

@@ -10,7 +10,7 @@ export default function Banner(){
 
     return(
         <BannerContainer>
-            <BannerImage src="/images/banner/banner.jpg"/>
+            <BannerImage src="/images/banner/col.jpeg"/>
             <BannerContent>
             <Typography variant="h6">New Platform</Typography>
             <BannerTitle variant="h2">

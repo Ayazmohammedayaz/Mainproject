@@ -1,15 +1,15 @@
-import './App.css';
+ import './App.css';
 import {Container, ThemeProvider, Typography} from '@mui/material';
 import theme from './styles/theme';
 import Appbar from './components/appbar';
 import Banner from './components/banner';
 import Promotions from './components/promotions';
 import Products from './components/products';
-
 import { Box } from '@mui/system';
 import Footer from './components/footer';
 import AppDrawer from './components/drawer';
 import { UIProvider } from './context/ui';
+
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
       <Products/>
       <Footer />
       <AppDrawer />
+      
       </UIProvider> 
       
       </Container>
@@ -39,3 +40,9 @@ function App() {
 }
 
 export default App;
+
+ 
+
+
+ 
+
